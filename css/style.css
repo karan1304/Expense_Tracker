@@ -1,0 +1,107 @@
+body
+{
+display:flex;
+align-items: center;
+justify-content: center;
+height:500px;
+margin:0;
+padding:0;
+background-color: rgb(155, 224, 155);
+color:white;
+}
+
+.container
+{
+margin:0;
+padding:0;
+padding:10px;
+background-color:white;
+box-shadow: 2px 2px 2px white,-2px -2px 2px white;
+border-radius:5px;
+text-align:center;
+}
+
+h1
+{
+font-family:"Moirai One";
+color:rgb(3, 80, 3);
+/* background-color: black; */
+text-align:center;
+}
+
+input
+{
+display:block;
+width:270px;
+margin:10px;
+height:35px;
+border-radius:5px;
+border:none;
+background-color: rgb(155, 224, 155,0.475);
+font-size:16px;
+outline:none;
+color:rgb(66, 64, 64);
+font-weight:700;
+text-align:center;
+}
+
+button
+{
+margin:10px auto;
+width:200px;
+height:40px;
+border-radius:5px;
+background-color:rgb(3, 46, 3);
+border:none;
+outline:none;
+color:white;
+font-weight:600;
+cursor:pointer;
+font-family:"merriweather",sans-serif;
+font-size:17px;
+box-shadow:10px 10px 5px rgba(155,224,155,0.475);
+}
+
+button:hover
+{
+border:2px solid rgb(3,46,3);
+color:rgb(3,46,3);
+font-family:"Moirai One";
+background-color: white;
+font-weight:700;
+}
+
+#list
+{
+ margin:0;
+ /* border:2px solid rgb(3,46,3); */
+ text-align:center;
+ list-style:none;
+ border-radius: 5px;
+ max-height:50px;
+ overflow-y:auto;
+}
+
+#list li
+{
+/* border-bottom:1px solid rgb(3,46,3); */
+font-size:18px;
+color:rgb(37, 35, 35);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+li span
+{
+color:red;
+}
+
+#totalExpense
+{
+border-radius:5px;
+margin-top:5px;
+color:rgb(3,46,3);
+padding:10px;
+font-weight:700;
+}
+
